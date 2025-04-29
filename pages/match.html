@@ -1,0 +1,8 @@
+<div id="match-app">
+    <h2>Cari Dokter</h2>
+    <form @submit.prevent="handleSubmit">
+        <input v-model="specialization" placeholder="Spesialisasi">
+        <input type="date" v-model="date">
+        <button type="submit">Cari</button>
+    </form>
+</div>
