@@ -29,3 +29,6 @@
         <p>&copy; <?php echo date('Y');?>KonsulDok. All rights reserved.</p>
     </div>
 </footer>
+
+<link rel="stylesheet" href="/assets/css/footer_style.css">
+<script src="/assets/js/footer.js"></script>
